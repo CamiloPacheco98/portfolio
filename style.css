@@ -1,5 +1,8 @@
 /* Portfolio CSS updated with red wine #701a34 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --dark1: #250902;
     --dark2: #38040e;
@@ -8,21 +11,17 @@
     --rose: #ad2831;
     --white: #ffffff;
     --black: #171717;
-  }
-  
-  @import url('https://fonts.cdnfonts.com/css/lufga');
-  
-  * {
-    font-family: 'Lufga', sans-serif !important;
-  }
-  
-  body {
-    font-family: 'Lufga', Arial, sans-serif;
+}
+
+body {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     background: var(--white);
-    color: var(--white);
-  }
+    color: var(--black);
+}
+
   
   /* NAVIGATION BAR */
   .navbar {
